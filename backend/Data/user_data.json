@@ -507,7 +507,219 @@
     },
     "codeforces": {
       "username": "ainalavasanth",
-      "error": "HTTP Error: 503"
+      "submissions": [
+        {
+          "id": 272807544,
+          "contestId": 1996,
+          "creationTimeSeconds": 1722008820,
+          "relativeTimeSeconds": 4320,
+          "problem": {
+            "contestId": 1996,
+            "index": "A",
+            "name": "Legs",
+            "type": "PROGRAMMING",
+            "rating": 800,
+            "tags": [
+              "binary search",
+              "math",
+              "ternary search"
+            ]
+          },
+          "author": {
+            "contestId": 1996,
+            "participantId": 187672217,
+            "members": [
+              {
+                "handle": "ainalavasanth"
+              }
+            ],
+            "participantType": "CONTESTANT",
+            "ghost": false,
+            "startTimeSeconds": 1722004500
+          },
+          "programmingLanguage": "C++20 (GCC 13-64)",
+          "verdict": "OK",
+          "testset": "TESTS",
+          "passedTestCount": 4,
+          "timeConsumedMillis": 108,
+          "memoryConsumedBytes": 0
+        },
+        {
+          "id": 271905934,
+          "contestId": 41,
+          "creationTimeSeconds": 1721646244,
+          "relativeTimeSeconds": 2147483647,
+          "problem": {
+            "contestId": 41,
+            "index": "A",
+            "name": "Translation",
+            "type": "PROGRAMMING",
+            "points": 500,
+            "rating": 800,
+            "tags": [
+              "implementation",
+              "strings"
+            ]
+          },
+          "author": {
+            "contestId": 41,
+            "participantId": 187305998,
+            "members": [
+              {
+                "handle": "ainalavasanth"
+              }
+            ],
+            "participantType": "PRACTICE",
+            "ghost": false,
+            "startTimeSeconds": 1289232000
+          },
+          "programmingLanguage": "PyPy 3-64",
+          "verdict": "OK",
+          "testset": "TESTS",
+          "passedTestCount": 46,
+          "timeConsumedMillis": 109,
+          "memoryConsumedBytes": 0
+        },
+        {
+          "id": 271899494,
+          "contestId": 282,
+          "creationTimeSeconds": 1721643227,
+          "relativeTimeSeconds": 2147483647,
+          "problem": {
+            "contestId": 282,
+            "index": "A",
+            "name": "Bit++",
+            "type": "PROGRAMMING",
+            "points": 500,
+            "rating": 800,
+            "tags": [
+              "implementation"
+            ]
+          },
+          "author": {
+            "contestId": 282,
+            "participantId": 187302674,
+            "members": [
+              {
+                "handle": "ainalavasanth"
+              }
+            ],
+            "participantType": "PRACTICE",
+            "ghost": false,
+            "startTimeSeconds": 1363188600
+          },
+          "programmingLanguage": "PyPy 3-64",
+          "verdict": "OK",
+          "testset": "TESTS",
+          "passedTestCount": 36,
+          "timeConsumedMillis": 93,
+          "memoryConsumedBytes": 0
+        },
+        {
+          "id": 265341588,
+          "contestId": 1985,
+          "creationTimeSeconds": 1718121913,
+          "relativeTimeSeconds": 5413,
+          "problem": {
+            "contestId": 1985,
+            "index": "A",
+            "name": "Creating Words",
+            "type": "PROGRAMMING",
+            "rating": 800,
+            "tags": [
+              "implementation",
+              "strings"
+            ]
+          },
+          "author": {
+            "contestId": 1985,
+            "participantId": 184127710,
+            "members": [
+              {
+                "handle": "ainalavasanth"
+              }
+            ],
+            "participantType": "CONTESTANT",
+            "ghost": false,
+            "startTimeSeconds": 1718116500
+          },
+          "programmingLanguage": "C++17 (GCC 7-32)",
+          "verdict": "OK",
+          "testset": "TESTS",
+          "passedTestCount": 2,
+          "timeConsumedMillis": 62,
+          "memoryConsumedBytes": 0
+        },
+        {
+          "id": 264028116,
+          "contestId": 1980,
+          "creationTimeSeconds": 1717433237,
+          "relativeTimeSeconds": 7937,
+          "problem": {
+            "contestId": 1980,
+            "index": "A",
+            "name": "Problem Generator",
+            "type": "PROGRAMMING",
+            "rating": 800,
+            "tags": [
+              "math"
+            ]
+          },
+          "author": {
+            "contestId": 1980,
+            "participantId": 183455967,
+            "members": [
+              {
+                "handle": "ainalavasanth"
+              }
+            ],
+            "participantType": "CONTESTANT",
+            "ghost": false,
+            "startTimeSeconds": 1717425300
+          },
+          "programmingLanguage": "C++17 (GCC 7-32)",
+          "verdict": "OK",
+          "testset": "TESTS",
+          "passedTestCount": 4,
+          "timeConsumedMillis": 46,
+          "memoryConsumedBytes": 0
+        },
+        {
+          "id": 251122783,
+          "contestId": 4,
+          "creationTimeSeconds": 1710346716,
+          "relativeTimeSeconds": 2147483647,
+          "problem": {
+            "contestId": 4,
+            "index": "A",
+            "name": "Watermelon",
+            "type": "PROGRAMMING",
+            "rating": 800,
+            "tags": [
+              "brute force",
+              "math"
+            ]
+          },
+          "author": {
+            "contestId": 4,
+            "participantId": 176872799,
+            "members": [
+              {
+                "handle": "ainalavasanth"
+              }
+            ],
+            "participantType": "PRACTICE",
+            "ghost": false,
+            "startTimeSeconds": 1268395200
+          },
+          "programmingLanguage": "Python 2",
+          "verdict": "OK",
+          "testset": "TESTS",
+          "passedTestCount": 20,
+          "timeConsumedMillis": 62,
+          "memoryConsumedBytes": 0
+        }
+      ]
     },
     "codechef": {
       "username": "ainalavasanth",
@@ -1520,207 +1732,13 @@
     },
     "codeforces": {
       "username": "renuka_55",
-      "submissions": [
-        {
-          "id": 265319081,
-          "contestId": 1985,
-          "creationTimeSeconds": 1718120353,
-          "relativeTimeSeconds": 3853,
-          "problem": {
-            "contestId": 1985,
-            "index": "D",
-            "name": "Manhattan Circle",
-            "type": "PROGRAMMING",
-            "rating": 900,
-            "tags": [
-              "implementation",
-              "math"
-            ]
-          },
-          "author": {
-            "contestId": 1985,
-            "participantId": 184128239,
-            "members": [
-              {
-                "handle": "renuka_55"
-              }
-            ],
-            "participantType": "CONTESTANT",
-            "ghost": false,
-            "startTimeSeconds": 1718116500
-          },
-          "programmingLanguage": "C++17 (GCC 7-32)",
-          "verdict": "OK",
-          "testset": "TESTS",
-          "passedTestCount": 10,
-          "timeConsumedMillis": 140,
-          "memoryConsumedBytes": 4198400
-        },
-        {
-          "id": 265289605,
-          "contestId": 1985,
-          "creationTimeSeconds": 1718118698,
-          "relativeTimeSeconds": 2197,
-          "problem": {
-            "contestId": 1985,
-            "index": "A",
-            "name": "Creating Words",
-            "type": "PROGRAMMING",
-            "rating": 800,
-            "tags": [
-              "implementation",
-              "strings"
-            ]
-          },
-          "author": {
-            "contestId": 1985,
-            "participantId": 184128239,
-            "members": [
-              {
-                "handle": "renuka_55"
-              }
-            ],
-            "participantType": "CONTESTANT",
-            "ghost": false,
-            "startTimeSeconds": 1718116500
-          },
-          "programmingLanguage": "C++17 (GCC 7-32)",
-          "verdict": "OK",
-          "testset": "TESTS",
-          "passedTestCount": 2,
-          "timeConsumedMillis": 61,
-          "memoryConsumedBytes": 0
-        },
-        {
-          "id": 264009214,
-          "contestId": 1980,
-          "creationTimeSeconds": 1717431598,
-          "relativeTimeSeconds": 6298,
-          "problem": {
-            "contestId": 1980,
-            "index": "B",
-            "name": "Choosing Cubes",
-            "type": "PROGRAMMING",
-            "rating": 800,
-            "tags": [
-              "sortings",
-              "sortings"
-            ]
-          },
-          "author": {
-            "contestId": 1980,
-            "participantId": 183472448,
-            "members": [
-              {
-                "handle": "renuka_55"
-              }
-            ],
-            "participantType": "CONTESTANT",
-            "ghost": false,
-            "startTimeSeconds": 1717425300
-          },
-          "programmingLanguage": "C++14 (GCC 6-32)",
-          "verdict": "OK",
-          "testset": "TESTS",
-          "passedTestCount": 4,
-          "timeConsumedMillis": 77,
-          "memoryConsumedBytes": 0
-        },
-        {
-          "id": 264008606,
-          "contestId": 1980,
-          "creationTimeSeconds": 1717431547,
-          "relativeTimeSeconds": 6247,
-          "problem": {
-            "contestId": 1980,
-            "index": "A",
-            "name": "Problem Generator",
-            "type": "PROGRAMMING",
-            "rating": 800,
-            "tags": [
-              "math"
-            ]
-          },
-          "author": {
-            "contestId": 1980,
-            "participantId": 183472448,
-            "members": [
-              {
-                "handle": "renuka_55"
-              }
-            ],
-            "participantType": "CONTESTANT",
-            "ghost": false,
-            "startTimeSeconds": 1717425300
-          },
-          "programmingLanguage": "C++14 (GCC 6-32)",
-          "verdict": "OK",
-          "testset": "TESTS",
-          "passedTestCount": 4,
-          "timeConsumedMillis": 46,
-          "memoryConsumedBytes": 0
-        }
-      ]
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "renuka_55",
-      "contests": [
-        {
-          "code": "START141D",
-          "getyear": "2024",
-          "getmonth": "7",
-          "getday": "3",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "792",
-          "rank": "19062",
-          "name": "Starters 141 Division 4 (Rated)",
-          "end_date": "2024-07-03 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Nearly Equal"
-          ],
-          "noOfProblems": 1
-        },
-        {
-          "code": "START138D",
-          "getyear": "2024",
-          "getmonth": "6",
-          "getday": "12",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "809",
-          "rank": "14753",
-          "name": "Starters 138 Division 4 (Rated)",
-          "end_date": "2024-06-12 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Heat Wave"
-          ],
-          "noOfProblems": 1
-        },
-        {
-          "code": "START136D",
-          "getyear": "2024",
-          "getmonth": "5",
-          "getday": "29",
-          "reason": "Cheated in START136D",
-          "penalised_in": [
-            "START136D"
-          ],
-          "rating": "625",
-          "rank": "16195",
-          "name": "Starters 136 Division 4 (Rated)",
-          "end_date": "2024-05-29 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Who Makes P1",
-            "My First Geometry Problem"
-          ],
-          "noOfProblems": 2
-        }
-      ],
-      "problemsSolved": "136"
+      "contests": [],
+      "problemsSolved": null,
+      "message": "Error fetching data"
     }
   },
   {
@@ -2330,13 +2348,13 @@
     },
     "codeforces": {
       "username": "dinesh_avula",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 400"
     },
     "codechef": {
       "username": "22501A1207",
       "contests": [],
       "problemsSolved": null,
-      "message": "Username does not exist"
+      "message": "Error fetching data"
     }
   },
   {
@@ -2933,7 +2951,7 @@
     },
     "codeforces": {
       "username": "veera_lavanya",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "22501A1208",
@@ -3542,7 +3560,7 @@
       "username": "22501A1209",
       "contests": [],
       "problemsSolved": null,
-      "message": "Error fetching data"
+      "message": "Username does not exist"
     }
   },
   {
@@ -3723,7 +3741,7 @@
     },
     "codeforces": {
       "username": "gayatri15404",
-      "error": "HTTP Error: 400"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "22501A1219",
@@ -4092,7 +4110,7 @@
     },
     "codeforces": {
       "username": "chittagayatri",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "gayatri_chitta",
@@ -4500,7 +4518,7 @@
     },
     "codeforces": {
       "username": "lally_22",
-      "error": "HTTP Error: 400"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "lallydasari75",
@@ -5664,13 +5682,207 @@
     },
     "codeforces": {
       "username": "vedhasree3924",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "vedhasree3924",
-      "contests": [],
-      "problemsSolved": null,
-      "message": "Error fetching data"
+      "contests": [
+        {
+          "code": "START198D",
+          "getyear": "2025",
+          "getmonth": "8",
+          "getday": "6",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1117",
+          "rank": "20063",
+          "name": "Starters 198 (Rated)",
+          "end_date": "2025-08-06 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Make Cat",
+            "Decoration Discount"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START196D",
+          "getyear": "2025",
+          "getmonth": "7",
+          "getday": "23",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1135",
+          "rank": "2349",
+          "name": "Starters 196 (Rated)",
+          "end_date": "2025-07-23 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "More Cookies",
+            "Cloud Watching",
+            "Sugar Limit"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START150D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "4",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1086",
+          "rank": "16515",
+          "name": "Starters 150 (Rated)",
+          "end_date": "2024-09-04 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "IOI 2024"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START149D",
+          "getyear": "2024",
+          "getmonth": "8",
+          "getday": "28",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1090",
+          "rank": "24671",
+          "name": "Starters 149 (Rated)",
+          "end_date": "2024-08-28 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Approximate Answer"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START146D",
+          "getyear": "2024",
+          "getmonth": "8",
+          "getday": "7",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1111",
+          "rank": "20294",
+          "name": "Starters 146 Division 4 (Rated till 5 stars)",
+          "end_date": "2024-08-07 22:00:04",
+          "color": "#666666",
+          "problems": [
+            "Olympics 2024"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START145D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "31",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1116",
+          "rank": "16005",
+          "name": "Starters 145 Division 4 (Rated)",
+          "end_date": "2024-07-31 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Gun Master",
+            "Volume Comparison"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START144D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "24",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1110",
+          "rank": "9155",
+          "name": "Starters 144 Division 4 (Rated)",
+          "end_date": "2024-07-24 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Capital Gain Tax",
+            "Savings Account"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START143D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "17",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1064",
+          "rank": "11063",
+          "name": "Starters 143 Division 4 (Rated)",
+          "end_date": "2024-07-17 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "International Justice Day"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START141D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "3",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1062",
+          "rank": "9361",
+          "name": "Starters 141 Division 4 (Rated)",
+          "end_date": "2024-07-03 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Nearly Equal",
+            "Lucky Clover"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START138D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "12",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1007",
+          "rank": "9364",
+          "name": "Starters 138 Division 4 (Rated)",
+          "end_date": "2024-06-12 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Heat Wave",
+            "Long Drive"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START136D",
+          "getyear": "2024",
+          "getmonth": "5",
+          "getday": "29",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "904",
+          "rank": "11844",
+          "name": "Starters 136 Division 4 (Rated)",
+          "end_date": "2024-05-29 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Who Makes P1"
+          ],
+          "noOfProblems": 1
+        }
+      ],
+      "problemsSolved": "406"
     }
   },
   {
@@ -5987,7 +6199,7 @@
       "username": "22501a1237",
       "contests": [],
       "problemsSolved": null,
-      "message": "Username does not exist"
+      "message": "Error fetching data"
     }
   },
   {
@@ -6090,240 +6302,13 @@
     },
     "codeforces": {
       "username": "harshinijs05",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "harshinijs05",
-      "contests": [
-        {
-          "code": "START164D",
-          "getyear": "2024",
-          "getmonth": "12",
-          "getday": "11",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1088",
-          "rank": "6873",
-          "name": "Starters 164 (Rated)",
-          "end_date": "2024-12-11 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "New-Pro Coder",
-            "Itz Simple"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START162D",
-          "getyear": "2024",
-          "getmonth": "11",
-          "getday": "27",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1064",
-          "rank": "8575",
-          "name": "Starters 162 (Rated)",
-          "end_date": "2024-11-27 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Calorie Intake",
-            "Assignment Score"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START156D",
-          "getyear": "2024",
-          "getmonth": "10",
-          "getday": "16",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1058",
-          "rank": "29119",
-          "name": "Starters 156 (Rated)",
-          "end_date": "2024-10-16 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Sweets Shop"
-          ],
-          "noOfProblems": 1
-        },
-        {
-          "code": "START152D",
-          "getyear": "2024",
-          "getmonth": "9",
-          "getday": "18",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1083",
-          "rank": "31020",
-          "name": "Starters 152 (Rated)",
-          "end_date": "2024-09-18 22:00:06",
-          "color": "#666666",
-          "problems": [],
-          "noOfProblems": 0
-        },
-        {
-          "code": "START150D",
-          "getyear": "2024",
-          "getmonth": "9",
-          "getday": "4",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1116",
-          "rank": "14990",
-          "name": "Starters 150 (Rated)",
-          "end_date": "2024-09-04 22:30:06",
-          "color": "#666666",
-          "problems": [
-            "IOI 2024"
-          ],
-          "noOfProblems": 1
-        },
-        {
-          "code": "START149D",
-          "getyear": "2024",
-          "getmonth": "8",
-          "getday": "28",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1118",
-          "rank": "20424",
-          "name": "Starters 149 (Rated)",
-          "end_date": "2024-08-28 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Approximate Answer"
-          ],
-          "noOfProblems": 1
-        },
-        {
-          "code": "START144D",
-          "getyear": "2024",
-          "getmonth": "7",
-          "getday": "24",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1126",
-          "rank": "12177",
-          "name": "Starters 144 Division 4 (Rated)",
-          "end_date": "2024-07-24 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Capital Gain Tax",
-            "Savings Account"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START142D",
-          "getyear": "2024",
-          "getmonth": "7",
-          "getday": "10",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1117",
-          "rank": "10358",
-          "name": "Starters 142 Division 4 (Rated)",
-          "end_date": "2024-07-10 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Penalty Shoot-out",
-            "Writing Speed"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START140D",
-          "getyear": "2024",
-          "getmonth": "6",
-          "getday": "26",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1110",
-          "rank": "10627",
-          "name": "Starters 140 Division 4 (Rated)",
-          "end_date": "2024-06-26 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Yoga Day",
-            "Yoga Class"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START139D",
-          "getyear": "2024",
-          "getmonth": "6",
-          "getday": "19",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1093",
-          "rank": "15876",
-          "name": "Starters 139 Division 4 (Rated)",
-          "end_date": "2024-06-19 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Television Channels"
-          ],
-          "noOfProblems": 1
-        },
-        {
-          "code": "START138D",
-          "getyear": "2024",
-          "getmonth": "6",
-          "getday": "12",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1127",
-          "rank": "9050",
-          "name": "Starters 138 Division 4 (Rated)",
-          "end_date": "2024-06-12 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Heat Wave",
-            "Long Drive"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START137D",
-          "getyear": "2024",
-          "getmonth": "6",
-          "getday": "5",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1091",
-          "rank": "10160",
-          "name": "Starters 137 Division 4 (Rated)",
-          "end_date": "2024-06-05 22:30:06",
-          "color": "#666666",
-          "problems": [
-            "Election Hopes",
-            "Spell Splice"
-          ],
-          "noOfProblems": 2
-        },
-        {
-          "code": "START136D",
-          "getyear": "2024",
-          "getmonth": "5",
-          "getday": "29",
-          "reason": null,
-          "penalised_in": null,
-          "rating": "1031",
-          "rank": "7347",
-          "name": "Starters 136 Division 4 (Rated)",
-          "end_date": "2024-05-29 22:00:06",
-          "color": "#666666",
-          "problems": [
-            "Even Sum Subarray",
-            "Who Makes P1"
-          ],
-          "noOfProblems": 2
-        }
-      ],
-      "problemsSolved": "229"
+      "contests": [],
+      "problemsSolved": null,
+      "message": "Error fetching data"
     }
   },
   {
@@ -6430,9 +6415,275 @@
     },
     "codechef": {
       "username": "sumanvitha1309",
-      "contests": [],
-      "problemsSolved": null,
-      "message": "Error fetching data"
+      "contests": [
+        {
+          "code": "START163D",
+          "getyear": "2024",
+          "getmonth": "12",
+          "getday": "4",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1165",
+          "rank": "10591",
+          "name": "Starters 163 (Rated)",
+          "end_date": "2024-12-04 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Chef and Socks"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START162D",
+          "getyear": "2024",
+          "getmonth": "11",
+          "getday": "27",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1193",
+          "rank": "1148",
+          "name": "Starters 162 (Rated)",
+          "end_date": "2024-11-27 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Adjacent Sum Array",
+            "Calorie Intake",
+            "Assignment Score"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START156D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "16",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1145",
+          "rank": "15903",
+          "name": "Starters 156 (Rated)",
+          "end_date": "2024-10-16 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Sweets Shop",
+            "Long Queue"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START150D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "4",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1131",
+          "rank": "16448",
+          "name": "Starters 150 (Rated)",
+          "end_date": "2024-09-04 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "IOI 2024"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START149D",
+          "getyear": "2024",
+          "getmonth": "8",
+          "getday": "28",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1148",
+          "rank": "23647",
+          "name": "Starters 149 (Rated)",
+          "end_date": "2024-08-28 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Approximate Answer"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START148D",
+          "getyear": "2024",
+          "getmonth": "8",
+          "getday": "21",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1175",
+          "rank": "11592",
+          "name": "Starters 148 Division 4 (Rated)",
+          "end_date": "2024-08-21 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Let Me Eat Cake!",
+            "Clearance Sale"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START145D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "31",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1152",
+          "rank": "21844",
+          "name": "Starters 145 Division 4 (Rated)",
+          "end_date": "2024-07-31 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Gun Master"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START144D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "24",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1186",
+          "rank": "7200",
+          "name": "Starters 144 Division 4 (Rated)",
+          "end_date": "2024-07-24 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Capital Gain Tax",
+            "Savings Account"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START143D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "17",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1151",
+          "rank": "12847",
+          "name": "Starters 143 Division 4 (Rated)",
+          "end_date": "2024-07-17 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "International Justice Day"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START142D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "10",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1184",
+          "rank": "9904",
+          "name": "Starters 142 Division 4 (Rated)",
+          "end_date": "2024-07-10 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Writing Speed",
+            "Penalty Shoot-out"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START141D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "3",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1193",
+          "rank": "6426",
+          "name": "Starters 141 Division 4 (Rated)",
+          "end_date": "2024-07-03 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Nearly Equal",
+            "Lucky Clover"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START140D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "26",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1146",
+          "rank": "10801",
+          "name": "Starters 140 Division 4 (Rated)",
+          "end_date": "2024-06-26 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Yoga Day",
+            "Yoga Class"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START139D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "19",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1166",
+          "rank": "14947",
+          "name": "Starters 139 Division 4 (Rated)",
+          "end_date": "2024-06-19 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Television Channels"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START138D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "12",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1261",
+          "rank": "8554",
+          "name": "Starters 138 Division 4 (Rated)",
+          "end_date": "2024-06-12 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Heat Wave",
+            "Long Drive"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START137D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "5",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1303",
+          "rank": "1683",
+          "name": "Starters 137 Division 4 (Rated)",
+          "end_date": "2024-06-05 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "Spell Splice",
+            "Large Differences",
+            "Election Hopes"
+          ],
+          "noOfProblems": 3
+        }
+      ],
+      "problemsSolved": "292"
     }
   },
   {
@@ -6522,13 +6773,13 @@
     },
     "codeforces": {
       "username": "sravyakilaru55",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "sravyakilaru8",
       "contests": [],
       "problemsSolved": null,
-      "message": "Error fetching data"
+      "message": "Username does not exist"
     }
   },
   {
@@ -6917,13 +7168,535 @@
     },
     "codeforces": {
       "username": "kodurunandini",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "kodurunandini",
-      "contests": [],
-      "problemsSolved": null,
-      "message": "Error fetching data"
+      "contests": [
+        {
+          "code": "START172D",
+          "getyear": "2025",
+          "getmonth": "2",
+          "getday": "5",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "933",
+          "rank": "36177",
+          "name": "Starters 172 (Rated)",
+          "end_date": "2025-02-05 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Time Machine"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START171D",
+          "getyear": "2025",
+          "getmonth": "1",
+          "getday": "29",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "976",
+          "rank": "35597",
+          "name": "Starters 171 (Rated)",
+          "end_date": "2025-01-29 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Squid Game - Piggy Bank"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START169D",
+          "getyear": "2025",
+          "getmonth": "1",
+          "getday": "15",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1024",
+          "rank": "18317",
+          "name": "Starters 169 (Rated)",
+          "end_date": "2025-01-15 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Entry Check"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START166D",
+          "getyear": "2024",
+          "getmonth": "12",
+          "getday": "25",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1066",
+          "rank": "15883",
+          "name": "Starters 166 (Rated)",
+          "end_date": "2024-12-25 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Merry Christmas!"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START163D",
+          "getyear": "2024",
+          "getmonth": "12",
+          "getday": "4",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1105",
+          "rank": "11364",
+          "name": "Starters 163 (Rated)",
+          "end_date": "2024-12-04 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Chef and Socks"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START158D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "30",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1128",
+          "rank": "13298",
+          "name": "Starters 158 (Rated)",
+          "end_date": "2024-10-30 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Diwali Discount",
+            "Even vs Odd Divisors"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START157D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "23",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1131",
+          "rank": "19872",
+          "name": "Starters 157 (Rated)",
+          "end_date": "2024-10-23 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Glass Prices"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START156D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "16",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1156",
+          "rank": "20226",
+          "name": "Starters 156 (Rated)",
+          "end_date": "2024-10-16 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Sweets Shop",
+            "Long Queue"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START155D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "9",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1164",
+          "rank": "11289",
+          "name": "Starters 155 (Rated)",
+          "end_date": "2024-10-09 22:00:04",
+          "color": "#666666",
+          "problems": [
+            "Chef and Parole",
+            "Rectangled"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START154D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "2",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1144",
+          "rank": "3273",
+          "name": "Starters 154 (Rated)",
+          "end_date": "2024-10-02 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Calorie Limit",
+            "Coldplay Tickets",
+            "Add 1 or 2 Game"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START153D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "25",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1101",
+          "rank": "17258",
+          "name": "Starters 153 (Rated)",
+          "end_date": "2024-09-25 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "AI is Coming",
+            "Make Arithmetic Progression",
+            "Butterfly"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START152D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "18",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1088",
+          "rank": "28746",
+          "name": "Starters 152 (Rated)",
+          "end_date": "2024-09-18 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Chess Olympiad"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START151D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "11",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1107",
+          "rank": "31061",
+          "name": "Starters 151 (rated)",
+          "end_date": "2024-09-11 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Weightlifting"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START150D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "4",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1148",
+          "rank": "21461",
+          "name": "Starters 150 (Rated)",
+          "end_date": "2024-09-04 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "IOI 2024"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START148D",
+          "getyear": "2024",
+          "getmonth": "8",
+          "getday": "21",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1178",
+          "rank": "11305",
+          "name": "Starters 148 Division 4 (Rated)",
+          "end_date": "2024-08-21 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Let Me Eat Cake!",
+            "Clearance Sale"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START145D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "31",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1160",
+          "rank": "13994",
+          "name": "Starters 145 Division 4 (Rated)",
+          "end_date": "2024-07-31 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Volume Comparison",
+            "Gun Master"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START144D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "24",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1155",
+          "rank": "11579",
+          "name": "Starters 144 Division 4 (Rated)",
+          "end_date": "2024-07-24 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Capital Gain Tax",
+            "Savings Account"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START143D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "17",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1152",
+          "rank": "6869",
+          "name": "Starters 143 Division 4 (Rated)",
+          "end_date": "2024-07-17 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Maximum Coins",
+            "International Justice Day"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START142D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "10",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1131",
+          "rank": "9563",
+          "name": "Starters 142 Division 4 (Rated)",
+          "end_date": "2024-07-10 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Writing Speed",
+            "Penalty Shoot-out"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START141D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "3",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1122",
+          "rank": "6100",
+          "name": "Starters 141 Division 4 (Rated)",
+          "end_date": "2024-07-03 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Nearly Equal",
+            "Lucky Clover"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START140D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "26",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1084",
+          "rank": "12874",
+          "name": "Starters 140 Division 4 (Rated)",
+          "end_date": "2024-06-26 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Make Permutation",
+            "Yoga Day"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START139D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "19",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1086",
+          "rank": "11788",
+          "name": "Starters 139 Division 4 (Rated)",
+          "end_date": "2024-06-19 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Distribute Cookies",
+            "Television Channels"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START138D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "12",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1078",
+          "rank": "10772",
+          "name": "Starters 138 Division 4 (Rated)",
+          "end_date": "2024-06-12 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Heat Wave",
+            "Long Drive"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START137D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "5",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1059",
+          "rank": "10212",
+          "name": "Starters 137 Division 4 (Rated)",
+          "end_date": "2024-06-05 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "Election Hopes",
+            "Spell Splice"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START136D",
+          "getyear": "2024",
+          "getmonth": "5",
+          "getday": "29",
+          "reason": "Cheated in START136D",
+          "penalised_in": [
+            "START136D"
+          ],
+          "rating": "1037",
+          "rank": "16195",
+          "name": "Starters 136 Division 4 (Rated)",
+          "end_date": "2024-05-29 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Who Makes P1",
+            "Even Sum Subarray",
+            "My First Geometry Problem"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START132D",
+          "getyear": "2024",
+          "getmonth": "5",
+          "getday": "1",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1285",
+          "rank": "2223",
+          "name": "Starters 132 Division 4 (Rated)",
+          "end_date": "2024-05-01 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Change Please",
+            "ICE CREAM",
+            "GAME 11"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START130D",
+          "getyear": "2024",
+          "getmonth": "4",
+          "getday": "17",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1205",
+          "rank": "8682",
+          "name": "Starters 130 Division 4 (Rated)",
+          "end_date": "2024-04-17 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Make Equal",
+            "Alternating Binary String",
+            "Swapping Marks Digits"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START127D",
+          "getyear": "2024",
+          "getmonth": "3",
+          "getday": "27",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1173",
+          "rank": "8476",
+          "name": "Starters 127 Division 4",
+          "end_date": "2024-03-27 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "The Ides of March",
+            "Superincreasing",
+            "Extreme Basketball"
+          ],
+          "noOfProblems": 3
+        },
+        {
+          "code": "START126D",
+          "getyear": "2024",
+          "getmonth": "3",
+          "getday": "20",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1079",
+          "rank": "9420",
+          "name": "Starters 126 Division 4 (Rated)",
+          "end_date": "2024-03-20 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Dice Game 3",
+            "AC Please",
+            "Sale"
+          ],
+          "noOfProblems": 3
+        }
+      ],
+      "problemsSolved": "192"
     }
   },
   {
@@ -8476,7 +9249,7 @@
     },
     "codeforces": {
       "username": "gowthami088",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "MADHU_GOWTHAMI",
@@ -8858,13 +9631,13 @@
     },
     "codeforces": {
       "username": "prasanna1265",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "22501a1265",
       "contests": [],
       "problemsSolved": null,
-      "message": "Error fetching data"
+      "message": "Username does not exist"
     }
   },
   {
@@ -9071,7 +9844,7 @@
     },
     "codeforces": {
       "username": "prudhvi1266",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "22501a1266",
@@ -9887,7 +10660,7 @@
     },
     "codeforces": {
       "username": "bindu273",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "Bindu273",
@@ -10087,7 +10860,7 @@
     },
     "codeforces": {
       "username": "roh 23505A1205",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "rohitha_sai",
@@ -10469,7 +11242,7 @@
     },
     "codeforces": {
       "username": "1★mudigondagya3",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 400"
     },
     "codechef": {
       "username": "mudigondagayathri",
@@ -11077,7 +11850,7 @@
     },
     "codeforces": {
       "username": "kalasri2005",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "kalasri2005",
