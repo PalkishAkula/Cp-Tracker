@@ -36,8 +36,8 @@ const CPReport = () => {
   const [loading, setLoading] = useState(false);
   const [isformSub, setisformSub] = useState(false);
 
-  // Use VITE_API_URL in production; fallback to relative "/api" in dev (with Vite proxy)
-  const API_BASE = import.meta.env.VITE_API_URL || ""; // e.g., https://your-backend.onrender.com
+  // Use VITE_API_BASE_URL in production; fallback to localhost in dev
+  const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000"; // e.g., https://your-backend.onrender.com
 
   const handlePlatformToggle = (platform) => {
     setSelectedPlatforms((prev) => {

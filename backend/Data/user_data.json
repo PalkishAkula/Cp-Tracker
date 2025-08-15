@@ -164,7 +164,7 @@
     },
     "codeforces": {
       "username": "nafisa1201",
-      "error": "HTTP Error: 503"
+      "error": "HTTP Error: 400"
     },
     "codechef": {
       "username": "nafisaab",
@@ -507,7 +507,7 @@
     },
     "codeforces": {
       "username": "ainalavasanth",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "ainalavasanth",
@@ -1502,7 +1502,7 @@
     },
     "codeforces": {
       "username": "palkishakula11",
-      "error": "HTTP Error: 400"
+      "error": "HTTP Error: 429"
     },
     "codechef": {
       "username": "akulapalkish72",
@@ -2330,7 +2330,7 @@
     },
     "codeforces": {
       "username": "dinesh_avula",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "22501A1207",
@@ -2933,7 +2933,7 @@
     },
     "codeforces": {
       "username": "veera_lavanya",
-      "error": "HTTP Error: 400"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "22501A1208",
@@ -3542,7 +3542,7 @@
       "username": "22501A1209",
       "contests": [],
       "problemsSolved": null,
-      "message": "Username does not exist"
+      "message": "Error fetching data"
     }
   },
   {
@@ -4098,7 +4098,7 @@
       "username": "gayatri_chitta",
       "contests": [],
       "problemsSolved": null,
-      "message": "Username does not exist"
+      "message": "Error fetching data"
     }
   },
   {
@@ -4500,7 +4500,7 @@
     },
     "codeforces": {
       "username": "lally_22",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 400"
     },
     "codechef": {
       "username": "lallydasari75",
@@ -5522,7 +5522,7 @@
       "username": "22501a1230",
       "contests": [],
       "problemsSolved": null,
-      "message": "Error fetching data"
+      "message": "Username does not exist"
     }
   },
   {
@@ -6090,13 +6090,240 @@
     },
     "codeforces": {
       "username": "harshinijs05",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "harshinijs05",
-      "contests": [],
-      "problemsSolved": null,
-      "message": "Error fetching data"
+      "contests": [
+        {
+          "code": "START164D",
+          "getyear": "2024",
+          "getmonth": "12",
+          "getday": "11",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1088",
+          "rank": "6873",
+          "name": "Starters 164 (Rated)",
+          "end_date": "2024-12-11 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "New-Pro Coder",
+            "Itz Simple"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START162D",
+          "getyear": "2024",
+          "getmonth": "11",
+          "getday": "27",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1064",
+          "rank": "8575",
+          "name": "Starters 162 (Rated)",
+          "end_date": "2024-11-27 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Calorie Intake",
+            "Assignment Score"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START156D",
+          "getyear": "2024",
+          "getmonth": "10",
+          "getday": "16",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1058",
+          "rank": "29119",
+          "name": "Starters 156 (Rated)",
+          "end_date": "2024-10-16 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Sweets Shop"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START152D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "18",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1083",
+          "rank": "31020",
+          "name": "Starters 152 (Rated)",
+          "end_date": "2024-09-18 22:00:06",
+          "color": "#666666",
+          "problems": [],
+          "noOfProblems": 0
+        },
+        {
+          "code": "START150D",
+          "getyear": "2024",
+          "getmonth": "9",
+          "getday": "4",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1116",
+          "rank": "14990",
+          "name": "Starters 150 (Rated)",
+          "end_date": "2024-09-04 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "IOI 2024"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START149D",
+          "getyear": "2024",
+          "getmonth": "8",
+          "getday": "28",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1118",
+          "rank": "20424",
+          "name": "Starters 149 (Rated)",
+          "end_date": "2024-08-28 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Approximate Answer"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START144D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "24",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1126",
+          "rank": "12177",
+          "name": "Starters 144 Division 4 (Rated)",
+          "end_date": "2024-07-24 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Capital Gain Tax",
+            "Savings Account"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START142D",
+          "getyear": "2024",
+          "getmonth": "7",
+          "getday": "10",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1117",
+          "rank": "10358",
+          "name": "Starters 142 Division 4 (Rated)",
+          "end_date": "2024-07-10 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Penalty Shoot-out",
+            "Writing Speed"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START140D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "26",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1110",
+          "rank": "10627",
+          "name": "Starters 140 Division 4 (Rated)",
+          "end_date": "2024-06-26 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Yoga Day",
+            "Yoga Class"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START139D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "19",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1093",
+          "rank": "15876",
+          "name": "Starters 139 Division 4 (Rated)",
+          "end_date": "2024-06-19 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Television Channels"
+          ],
+          "noOfProblems": 1
+        },
+        {
+          "code": "START138D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "12",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1127",
+          "rank": "9050",
+          "name": "Starters 138 Division 4 (Rated)",
+          "end_date": "2024-06-12 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Heat Wave",
+            "Long Drive"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START137D",
+          "getyear": "2024",
+          "getmonth": "6",
+          "getday": "5",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1091",
+          "rank": "10160",
+          "name": "Starters 137 Division 4 (Rated)",
+          "end_date": "2024-06-05 22:30:06",
+          "color": "#666666",
+          "problems": [
+            "Election Hopes",
+            "Spell Splice"
+          ],
+          "noOfProblems": 2
+        },
+        {
+          "code": "START136D",
+          "getyear": "2024",
+          "getmonth": "5",
+          "getday": "29",
+          "reason": null,
+          "penalised_in": null,
+          "rating": "1031",
+          "rank": "7347",
+          "name": "Starters 136 Division 4 (Rated)",
+          "end_date": "2024-05-29 22:00:06",
+          "color": "#666666",
+          "problems": [
+            "Even Sum Subarray",
+            "Who Makes P1"
+          ],
+          "noOfProblems": 2
+        }
+      ],
+      "problemsSolved": "229"
     }
   },
   {
@@ -6199,7 +6426,7 @@
     },
     "codeforces": {
       "username": "sumanvitha1309",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "sumanvitha1309",
@@ -7142,7 +7369,7 @@
     },
     "codeforces": {
       "username": "niharika_2404",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "niharika_24",
@@ -9018,7 +9245,7 @@
     },
     "codeforces": {
       "username": "a1269",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "rushmika",
@@ -9660,7 +9887,7 @@
     },
     "codeforces": {
       "username": "bindu273",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "Bindu273",
@@ -9860,7 +10087,7 @@
     },
     "codeforces": {
       "username": "roh 23505A1205",
-      "error": "HTTP Error: 429"
+      "error": "HTTP Error: 503"
     },
     "codechef": {
       "username": "rohitha_sai",

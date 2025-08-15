@@ -4,7 +4,8 @@ const processContestData = async (username) => {
     }
 
     try {
-        const response = await fetch(`http://localhost:5000/api/codechef/${username}`);
+        const baseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+        const response = await fetch(`${baseUrl}/api/codechef/${username}`);
         const apiResponse = await response.json(); // Convert response to JSON
 
         if (!apiResponse || !apiResponse.contests) {

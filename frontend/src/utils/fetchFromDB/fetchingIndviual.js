@@ -29,6 +29,7 @@ const getUserStats = (submissions) => {
 
 const fetchData = async (persons) => {
     const { person1, person2 } = persons;
+    const baseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
 
     const fetchAndProcess = async (platform, url, isCodeforces = false) => {
         try {
@@ -50,7 +51,7 @@ const fetchData = async (persons) => {
 
     // Fetch Data for Person 1
     if (person1.platforms.leetcode) {
-        let leetcodeData = await fetchAndProcess("LeetCode", `http://localhost:5000/api/leetcode/${person1.usernames.leetcode}`);
+        let leetcodeData = await fetchAndProcess("LeetCode", `${baseUrl}/api/leetcode/${person1.usernames.leetcode}`);
         if (leetcodeData) {
             person1Data.leetcode = {
                 noOfProblemsSolved: leetcodeData?.data?.matchedUser?.submitStatsGlobal?.acSubmissionNum[0]?.count || 0,
@@ -66,7 +67,7 @@ const fetchData = async (persons) => {
 
     if (person1.platforms.codechef) {
         let codechefData = await fetchAndProcess("CodeChef", `https://codechef-api.vercel.app/handle/${person1.usernames.codechef}`);
-        let codechefContestData = await fetchAndProcess("CodeChef", `http://localhost:5000/api/codechef/${person1.usernames.codechef}`);
+        let codechefContestData = await fetchAndProcess("CodeChef", `${baseUrl}/api/codechef/${person1.usernames.codechef}`);
         if (codechefData) {
             person1Data.codechef = {
                 currRating: codechefData?.currentRating || 0,
@@ -95,7 +96,7 @@ const fetchData = async (persons) => {
 
     // Fetch Data for Person 2
     if (person2.platforms.leetcode) {
-        let leetcodeData = await fetchAndProcess("LeetCode", `http://localhost:5000/api/leetcode/${person2.usernames.leetcode}`);
+        let leetcodeData = await fetchAndProcess("LeetCode", `${baseUrl}/api/leetcode/${person2.usernames.leetcode}`);
         if (leetcodeData) {
             person2Data.leetcode = {
                 noOfProblemsSolved: leetcodeData?.data?.matchedUser?.submitStatsGlobal?.acSubmissionNum[0]?.count || 0,
@@ -111,7 +112,7 @@ const fetchData = async (persons) => {
 
     if (person2.platforms.codechef) {
         let codechefData = await fetchAndProcess("CodeChef", `https://codechef-api.vercel.app/handle/${person2.usernames.codechef}`);
-        let codechefContestData = await fetchAndProcess("CodeChef", `http://localhost:5000/api/codechef/${person2.usernames.codechef}`);
+        let codechefContestData = await fetchAndProcess("CodeChef", `${baseUrl}/api/codechef/${person2.usernames.codechef}`);
         if (codechefData) {
             person2Data.codechef = {
                 currRating: codechefData?.currentRating || 0,
