@@ -9,7 +9,6 @@ import StudentReport from './pages/StudentReport';
 import CPReport from './pages/CpReport';
 import ComparePage from './pages/ComparePage';
 import Home from './pages/Home';
-import ContestAnalysisPage from './pages/ContestAnalysisPage';
 
 function App() {
   const [batchData, setBatchData] = useState([]);
@@ -37,7 +36,6 @@ function App() {
         <Route path="/student-report" element={<StudentReport batchData={batchData} />} />
         <Route path="/cp-report" element={<CPReport />} />
         <Route path="/compare" element={<ComparePage />} />
-        <Route path='/contest-analysis' element={<ContestAnalysisPage/>} />
       </Routes>
 
       {!hideNavbarFooter && <Footer />} {/* Conditionally render Footer */}

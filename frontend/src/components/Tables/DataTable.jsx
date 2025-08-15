@@ -10,30 +10,8 @@ const DataTable = ({ data, isStudentReport = false, filter = "all",  }) => {
   };
 
   useEffect(() => {
-    const contestData = {
-      leetcode: [],
-      codechef: [],
-      codeforces: [],
-    };
-  
-    data.forEach(({ contests }) => {
-      contestData.leetcode.push(...contests.leetcode);
-      contestData.codechef.push(...contests.codechef);
-      contestData.codeforces.push(...contests.codeforces);
-    });
-  
-    const checkContests = {
-      all: [contestData.leetcode, contestData.codechef, contestData.codeforces]
-              .some(arr => arr.length > 0),
-      leetcode: contestData.leetcode.length > 0,
-      codechef: contestData.codechef.length > 0,
-      codeforces: contestData.codeforces.length > 0,
-    };
-  
-    const finalFilter = filter.toLowerCase();
-    setHasContests(checkContests[finalFilter]);
-    
-    if (!checkContests[finalFilter]) toast.error("No contests found");
+    // Render table as long as there is student data
+    setHasContests(Array.isArray(data) && data.length > 0);
   }, [data, filter]);
   
 
@@ -161,19 +139,18 @@ const DataTable = ({ data, isStudentReport = false, filter = "all",  }) => {
               codeforces: contests.codeforces,
             };
 
-            const maxRows = Math.max(
-              ...Object.values(platformContests)
-                .filter(
-                  (_, idx) =>
-                    filter === "all" ||
-                    filter === ["leetcode", "codechef", "codeforces"][idx]
-                )
-                .map((arr) => arr.length)
-            );
+            // Determine arrays included based on current filter
+            const includedArrays =
+              filter === "all"
+                ? [platformContests.leetcode, platformContests.codechef, platformContests.codeforces]
+                : [platformContests[filter]];
+
+            // Render at least one row per student so users don't disappear when they have 0 contests
+            const maxRows = Math.max(1, ...includedArrays.map((arr) => arr.length));
 
             return Array.from({ length: maxRows }).map((_, rowIndex) => (
               <tr
-                key={`${student.roll}-${rowIndex}`}
+                key={`${student.rollno}-${rowIndex}`}
                 className={studentIndex % 2 === 0 ? "bg-white" : "bg-gray-50"}
               >
                 {rowIndex === 0 && !isStudentReport && (

@@ -12,8 +12,8 @@ import BatchTable from "../components/Tables/DataTable";
 
 const BatchReport = ({ batchData, isFetched }) => {
   // const [selectedBatch, setSelectedBatch] = useState("22");
-  const [fromRollNo, setFromRollNo] = useState("22501a1201");
-  const [toRollNo, setToRollNo] = useState("22501a1266");
+  const [fromRollNo, setFromRollNo] = useState("22501A1201");
+  const [toRollNo, setToRollNo] = useState("22501A1266");
   const [selectedPlatforms, setSelectedPlatforms] = useState(["All"]);
 
   const todayDate = new Date();
@@ -23,7 +23,8 @@ const BatchReport = ({ batchData, isFetched }) => {
   const todayFormatted = todayDate.toISOString().split("T")[0];
   const tenDaysAgoFormatted = tenDaysAgoDate.toISOString().split("T")[0];
 
-  const [startDate, setStartDate] = useState(tenDaysAgoFormatted);
+  // Use a wide default range so historical contests appear
+  const [startDate, setStartDate] = useState("2020-01-01");
   const [endDate, setEndDate] = useState(todayFormatted);
 
   const [filteredContests, setfilteredContests] = useState([]);
@@ -63,14 +64,19 @@ const BatchReport = ({ batchData, isFetched }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    if (!fromRollNo || !toRollNo || !startDate || !endDate) {
-      toast.error("All fields are required!");
+    if (!startDate || !endDate) {
+      toast.error("Date range is required!");
       return;
     }
 
-    if (parseInt(fromRollNo, 10) > parseInt(toRollNo, 10)) {
-      toast.error("Enter a valid Roll Number range!");
-      return;
+    // If both roll numbers provided, validate lexicographically (case-insensitive)
+    if (fromRollNo.trim() && toRollNo.trim()) {
+      const f = fromRollNo.trim().toUpperCase();
+      const t = toRollNo.trim().toUpperCase();
+      if (f > t) {
+        toast.error("Enter a valid Roll Number range!");
+        return;
+      }
     }
 
     try {
@@ -79,12 +85,27 @@ const BatchReport = ({ batchData, isFetched }) => {
       console.log("Raw Students Data:", studentsData);
       setRawData(studentsData);
 
-      // Filter students based on roll number (username field)
+      // Normalize roll numbers for comparison
+      const normalizedRolls = studentsData
+        .map((s) => (s.rollno || "").trim().toUpperCase())
+        .filter((r) => r.length > 0);
+
+      // Determine dataset min/max (lexicographic) to cover entire batch
+      const datasetMin = normalizedRolls.reduce((a, b) => (a < b ? a : b), normalizedRolls[0] || "");
+      const datasetMax = normalizedRolls.reduce((a, b) => (a > b ? a : b), normalizedRolls[0] || "");
+
+      // Use provided range if present; otherwise fall back to dataset min/max
+      const from = ((fromRollNo || "").trim().length ? fromRollNo : datasetMin).toUpperCase();
+      const to = ((toRollNo || "").trim().length ? toRollNo : datasetMax).toUpperCase();
+
+      // If from > to (user typo), swap to avoid empty results
+      const rangeFrom = from <= to ? from : to;
+      const rangeTo = from <= to ? to : from;
+
+      // Filter students within the computed range
       let students = studentsData.filter((student) => {
-        let roll = parseInt(student.rollno, 10); // Fix: Using `username`
-        return (
-          roll >= parseInt(fromRollNo, 10) && roll <= parseInt(toRollNo, 10)
-        );
+        const roll = (student.rollno || "").trim().toUpperCase();
+        return roll >= rangeFrom && roll <= rangeTo;
       });
 
 
@@ -113,12 +134,12 @@ const BatchReport = ({ batchData, isFetched }) => {
             codechef: filterCodechef(
               startDate,
               endDate,
-              student.codechef.contests || []
+              student.codechef?.contests || []
             ),
             codeforces: filterCodeforces(
               startDate,
               endDate,
-              student.codeforces?.attendedContests || []
+              student.codeforces?.contests || []
             ),
           },
         };

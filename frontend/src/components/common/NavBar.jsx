@@ -20,7 +20,6 @@ const Navbar = () => {
             { name: "Student Report", path: "/student-report" },
             { name: "CP Report", path: "/cp-report" },
             { name: "Compare", path: "/compare" },
-            { name: "Contest Analysis", path: "/contest-analysis" },
           ].map((item, index) => (
             <li key={index} className="relative group">
               <Link to={item.path} className="hover:text-blue-600 transition duration-300">

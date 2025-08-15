@@ -1,5 +1,5 @@
 const fs = require("fs");
-const USERS = JSON.parse(fs.readFileSync("./Data/testusers.json", "utf8"));
+const path = require("path");
 
 // fetching leetcode data
 
@@ -160,6 +160,10 @@ const fetchCodeforcesContest = async (username) => {
 const { scrapeCodeChef } = require("./scrapeCodeChef");
 
 const fetchAllUsersData = async () => {
+  // Read users fresh each call to avoid stale data and ensure correct path resolution
+  const usersFile = path.join(__dirname, "../Data/testusers.json");
+  const USERS = JSON.parse(fs.readFileSync(usersFile, "utf8"));
+
   return Promise.all(
     USERS.map(async (user) => {
       const [codechefData, leetcodeData, codeforcesData] = await Promise.all([

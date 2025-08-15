@@ -36,8 +36,9 @@ const BatchReport = ({ batchData, isFetched }) => {
       let studentsData = batchData;
       setRawData(studentsData);
 
+      // Case-insensitive match for alphanumeric roll numbers
       let student = studentsData.find(
-        (student) => student.rollno === rollNo.trim()
+        (student) => (student.rollno || "").toLowerCase() === rollNo.trim().toLowerCase()
       );
 
       if (!student) {
