@@ -36,6 +36,9 @@ const CPReport = () => {
   const [loading, setLoading] = useState(false);
   const [isformSub, setisformSub] = useState(false);
 
+  // Use VITE_API_URL in production; fallback to relative "/api" in dev (with Vite proxy)
+  const API_BASE = import.meta.env.VITE_API_URL || ""; // e.g., https://your-backend.onrender.com
+
   const handlePlatformToggle = (platform) => {
     setSelectedPlatforms((prev) => {
       let newSelection;
@@ -77,18 +80,18 @@ const CPReport = () => {
       const responses = await Promise.all([
         platforms.codechef && usernames.codechef
           ? axios
-              .get(`http://localhost:5000/api/codechef/${usernames.codechef}`)
+              .get(`${API_BASE}/api/codechef/${usernames.codechef}`)
               .catch(() => null)
           : null,
         platforms.leetcode && usernames.leetcode
           ? axios
-              .get(`http://localhost:5000/api/leetcode/${usernames.leetcode}`)
+              .get(`${API_BASE}/api/leetcode/${usernames.leetcode}`)
               .catch(() => null)
           : null,
         platforms.codeforces && usernames.codeforces
           ? axios
               .get(
-                `http://localhost:5000/api/codeforces/${usernames.codeforces}`
+                `${API_BASE}/api/codeforces/${usernames.codeforces}`
               )
               .catch(() => null)
           : null,
